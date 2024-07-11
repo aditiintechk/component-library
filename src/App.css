@@ -1,42 +1,71 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.badge-container {
+	display: flex;
+	flex-direction: column;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badge {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.5em 0.8em;
+	margin: 0.8em 0.5em;
+	font-size: 1em;
+	font-weight: 600;
+	font-family: inherit;
+	background-color: #f3f4f6;
+	color: #1f2937;
+	cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.badge:hover {
+	opacity: 0.9;
 }
 
-.card {
-  padding: 2em;
+.badge.badge-red {
+	background-color: #fee2e2;
+	color: #991b1b;
 }
 
-.read-the-docs {
-  color: #888;
+.badge.badge-yellow {
+	background-color: #fef3c7;
+	color: #92400e;
+}
+
+.badge.badge-green {
+	background-color: #d1fae5;
+	color: #065f46;
+}
+
+.badge.badge-blue {
+	background-color: #dbeafe;
+	color: #1e40af;
+}
+
+.badge.badge-indigo {
+	background-color: #e0e7ff;
+	color: #3730a3;
+}
+
+.badge.badge-purple {
+	background-color: #ede9fe;
+	color: #5b21b6;
+}
+
+.badge.badge-pink {
+	background-color: #fce7f3;
+	color: #9d174d;
+}
+
+.badge.badge-square {
+	border-radius: 6px;
+}
+
+.badge.badge-pill {
+	border-radius: 12px;
 }
