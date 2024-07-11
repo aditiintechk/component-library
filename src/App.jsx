@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Badge from './components/Badge.jsx'
 import Banner from './components/Banner.jsx'
+import Card from './components/Card.jsx'
 import './App.css'
 
 function App() {
@@ -96,6 +97,10 @@ function App() {
 						</h4>
 					</div>
 				</Banner>
+			</div>
+			<div className='card-container'>
+				<h2>Card Component</h2>
+				<Card />
 			</div>
 		</>
 	)
