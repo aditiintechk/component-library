@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Badge from './components/Badge.jsx'
 import Banner from './components/Banner.jsx'
 import Card from './components/Card.jsx'
+import Testimonial from './components/Testimonial.jsx'
 import './App.css'
 
 function App() {
@@ -98,10 +99,30 @@ function App() {
 					</div>
 				</Banner>
 			</div>
+
 			<div className='card-container'>
 				<h2>Card Component</h2>
 				<Card />
 			</div>
+
+			<div className='testimonial-container'>
+				<h2>Testimonial Component</h2>
+				<Testimonial />
+			</div>
+
+			<footer>
+				Project by{' '}
+				<a href='https://v2.scrimba.com/home' target='_blank'>
+					Scrimba
+				</a>{' '}
+				| Developed by{' '}
+				<a
+					href='https://aditiintechk.github.io/social-links/'
+					target='_blank'
+				>
+					@aditiintechk
+				</a>
+			</footer>
 		</>
 	)
 }
