@@ -3,6 +3,7 @@ import Badge from './components/Badge.jsx'
 import Banner from './components/Banner.jsx'
 import Card from './components/Card.jsx'
 import Testimonial from './components/Testimonial.jsx'
+import TooltipComponents from './components/Tooltip/TooltipComponents.jsx'
 import './App.css'
 
 function App() {
@@ -110,7 +111,11 @@ function App() {
 				<Testimonial />
 			</div>
 
-			<footer>
+			<div className='tooltip-container'>
+				<TooltipComponents />
+			</div>
+
+			{/* <footer>
 				Project by{' '}
 				<a href='https://v2.scrimba.com/home' target='_blank'>
 					Scrimba
@@ -122,7 +127,7 @@ function App() {
 				>
 					@aditiintechk
 				</a>
-			</footer>
+			</footer> */}
 		</>
 	)
 }

@@ -8,7 +8,8 @@
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
 	margin: 0;
 }
 
@@ -179,6 +180,49 @@ h2 {
 
 p {
 	font-size: 0.875rem;
+}
+
+/* Tooltip */
+
+.tooltip-container {
+	background-color: #e5e7eb;
+	padding: 0.1em;
+	text-align: left;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+}
+
+.tooltip {
+	width: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: #262626;
+	margin: 1.5em 0.5em;
+	padding: 1em;
+	gap: 1em;
+	border-radius: 8px;
+	position: relative;
+}
+
+.tooltip img {
+	margin-top: 0.2em;
+}
+
+.tooltip p {
+	font-size: 0.8rem;
+}
+
+.inverted-triangle {
+	width: 0;
+	height: 0;
+	border-left: 0.8rem solid transparent;
+	border-right: 0.8rem solid transparent;
+	border-top: 0.8rem solid #262626;
+	position: absolute;
+	top: 100%;
+	left: 10%;
 }
 
 /* Footer */
