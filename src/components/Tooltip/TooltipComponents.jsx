@@ -4,16 +4,16 @@ export default function TooltipComponents() {
 	return (
 		<>
 			<div className='bold'>
-				<Tooltip />
-				<Tooltip />
-				<Tooltip />
-				<Tooltip />
+				<Tooltip variant='black' />
+				<Tooltip variant='blue' />
+				<Tooltip variant='pink' />
+				<Tooltip variant='green' />
 			</div>
 			<div className='light'>
-				<Tooltip />
-				<Tooltip />
-				<Tooltip />
-				<Tooltip />
+				<Tooltip variant='white' />
+				<Tooltip variant='light-blue' />
+				<Tooltip variant='light-pink' />
+				<Tooltip variant='light-green' />
 			</div>
 		</>
 	)

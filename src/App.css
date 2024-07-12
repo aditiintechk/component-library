@@ -185,7 +185,7 @@ p {
 /* Tooltip */
 
 .tooltip-container {
-	background-color: #e5e7eb;
+	background-color: #d5dae4;
 	padding: 0.1em;
 	text-align: left;
 	border-radius: 8px;
@@ -199,7 +199,7 @@ p {
 	justify-content: center;
 	align-items: flex-start;
 	background-color: #262626;
-	margin: 1.5em 0.5em;
+	margin: 2em 0.8em;
 	padding: 1em;
 	gap: 1em;
 	border-radius: 8px;
@@ -212,6 +212,8 @@ p {
 
 .tooltip p {
 	font-size: 0.8rem;
+	font-weight: 300;
+	margin-top: 0.3em;
 }
 
 .inverted-triangle {
@@ -225,10 +227,134 @@ p {
 	left: 10%;
 }
 
+/* BLACK */
+
+.tooltip.tooltip-black {
+	background-color: #262626;
+	color: #fdfdfd;
+}
+
+.inverted-triangle.black {
+	border-top: 0.8rem solid #262626;
+}
+
+/* WHITE  */
+
+.tooltip.tooltip-white {
+	background-color: #fdfdfd;
+	color: #111827;
+}
+
+.tooltip.tooltip-white img {
+	filter: invert(100%) sepia(0%) saturate(7433%) hue-rotate(24deg)
+		brightness(114%) contrast(100%);
+}
+
+.inverted-triangle.white {
+	border-top: 0.8rem solid #fdfdfd;
+}
+
+/* BLUE */
+
+.tooltip.tooltip-blue {
+	background-color: #1e40af;
+	color: #e8edff;
+}
+
+.tooltip.tooltip-blue img {
+	filter: invert(57%) sepia(16%) saturate(4534%) hue-rotate(181deg)
+		brightness(98%) contrast(95%);
+}
+
+.inverted-triangle.blue {
+	border-top: 0.8rem solid #1e40af;
+}
+
+/* LIGHT BLUE */
+
+.tooltip.tooltip-light-blue {
+	background-color: #c9d6ff;
+	color: #1c51b9;
+}
+
+.tooltip.tooltip-light-blue img {
+	filter: invert(19%) sepia(93%) saturate(5941%) hue-rotate(196deg)
+		brightness(90%) contrast(98%);
+}
+
+.inverted-triangle.light-blue {
+	border-top: 0.8rem solid #c9d6ff;
+}
+
+/* PINK */
+
+.tooltip.tooltip-pink {
+	background-color: #a9229b;
+	color: #ffffff;
+}
+
+.tooltip.tooltip-pink img {
+	filter: invert(68%) sepia(73%) saturate(2000%) hue-rotate(285deg)
+		brightness(99%) contrast(97%);
+}
+
+.inverted-triangle.pink {
+	border-top: 0.8rem solid #a9229b;
+}
+
+/* LIGHT PINK */
+
+.tooltip.tooltip-light-pink {
+	background-color: #f5dfef;
+	color: #c7369e;
+}
+
+.tooltip.tooltip-light-pink img {
+	filter: invert(37%) sepia(90%) saturate(3661%) hue-rotate(293deg)
+		brightness(94%);
+}
+
+.inverted-triangle.light-pink {
+	border-top: 0.8rem solid #f5dfef;
+}
+
+/* GREEN */
+
+.tooltip.tooltip-green {
+	background-color: #47aa5d;
+	color: #ffffff;
+}
+
+.tooltip.tooltip-green img {
+	filter: invert(82%) sepia(16%) saturate(2550%) hue-rotate(72deg)
+		brightness(100%) contrast(90%);
+}
+
+.inverted-triangle.green {
+	border-top: 0.8rem solid #47aa5d;
+}
+
+/* LIGHT GREEN */
+
+.tooltip.tooltip-light-green {
+	background-color: #e7fff3;
+	color: #137a2a;
+}
+
+.tooltip.tooltip-light-green img {
+	filter: invert(32%) sepia(55%) saturate(3495%) hue-rotate(134deg)
+		brightness(93%) contrast(91%);
+}
+
+.inverted-triangle.light-green {
+	border-top: 0.8rem solid #e7fff3;
+}
+
 /* Footer */
 
 footer {
 	font-size: 0.75rem;
+	margin-top: 3em;
 }
 
 footer a {

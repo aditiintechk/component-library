@@ -111,11 +111,14 @@ function App() {
 				<Testimonial />
 			</div>
 
-			<div className='tooltip-container'>
-				<TooltipComponents />
+			<div className='tooltip-section'>
+				<h2>Tooltip Resuable Components</h2>
+				<div className='tooltip-container'>
+					<TooltipComponents />
+				</div>
 			</div>
 
-			{/* <footer>
+			<footer>
 				Project by{' '}
 				<a href='https://v2.scrimba.com/home' target='_blank'>
 					Scrimba
@@ -127,7 +130,7 @@ function App() {
 				>
 					@aditiintechk
 				</a>
-			</footer> */}
+			</footer>
 		</>
 	)
 }
