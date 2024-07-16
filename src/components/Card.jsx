@@ -1,8 +1,10 @@
+import imageUrl from '../../public/brand-icon.svg'
+
 export default function Card() {
 	return (
 		<div className='card'>
 			<img
-				src='../../public/brand-icon.svg'
+				src={imageUrl}
 				alt='an icon with a blue background and an upward arrow with a cloud on its tip in the center'
 			/>
 			<h3>Easy Deployment</h3>

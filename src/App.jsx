@@ -5,6 +5,7 @@ import Card from './components/Card.jsx'
 import Testimonial from './components/Testimonial.jsx'
 import TooltipComponents from './components/Tooltip/TooltipComponents.jsx'
 import './App.css'
+import imageUrl from '../public/check-circle.svg'
 
 function App() {
 	// Badge Component
@@ -36,7 +37,7 @@ function App() {
 					<div>
 						<img
 							className='icon'
-							src='../public/check-circle.svg'
+							src={imageUrl}
 							alt='a green circle with a checkmark at the center'
 						/>
 					</div>
