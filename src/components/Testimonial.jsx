@@ -1,13 +1,16 @@
+import testimonialImage from '../../public/testimonial-image.jpg'
+import quoteIcon from '../../public/quote.svg'
+
 export default function Testimonial() {
 	return (
 		<div className='testimonial'>
 			<img
 				className='testimonial-img'
-				src='../../public/testimonial-image.jpg'
-				alt=''
+				src={testimonialImage}
+				alt='a beautiful black woman sitting confidently wearing a blue dress & a pretty smile'
 			/>
 			<div>
-				<img src='../../public/quote.svg' alt='' />
+				<img src={quoteIcon} alt='' />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
 					urna nulla vitae laoreet augue. Amet feugiat est integer

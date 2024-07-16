@@ -5,7 +5,10 @@ import Card from './components/Card.jsx'
 import Testimonial from './components/Testimonial.jsx'
 import TooltipComponents from './components/Tooltip/TooltipComponents.jsx'
 import './App.css'
-import imageUrl from '../public/check-circle.svg'
+import checkCircle from '../public/check-circle.svg'
+import exclamation from '../public/exclamation.svg'
+import xCircle from '../public/x-circle.svg'
+import updateIcon from '../public/update-icon.svg'
 
 function App() {
 	// Badge Component
@@ -37,7 +40,7 @@ function App() {
 					<div>
 						<img
 							className='icon'
-							src={imageUrl}
+							src={checkCircle}
 							alt='a green circle with a checkmark at the center'
 						/>
 					</div>
@@ -54,7 +57,7 @@ function App() {
 					<div>
 						<img
 							className='icon'
-							src='../public/exclamation.svg'
+							src={exclamation}
 							alt='a yellow color exclamation warning sign'
 						/>
 					</div>
@@ -71,7 +74,7 @@ function App() {
 					<div>
 						<img
 							className='icon'
-							src='../public/x-circle.svg'
+							src={xCircle}
 							alt='an x mark in a red circle'
 						/>
 					</div>
@@ -88,7 +91,7 @@ function App() {
 					<div>
 						<img
 							className='icon'
-							src='../public/update-icon.svg'
+							src={updateIcon}
 							alt='info icon with a blue background in a round shape'
 						/>
 					</div>
